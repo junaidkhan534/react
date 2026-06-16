@@ -111,7 +111,7 @@ const App = () => {
   return (
     <div className='parent'>
       {jobOpenings.map(function(elem, idx) {
-        return <div key={idx}>
+        return <div  key={idx}>
           <Card name={elem} />
         </div>
         
